@@ -1,0 +1,41 @@
+/** box-sizing: border-box;*/
+
+.body{
+	width: 90%;
+	margin: 0 auto;
+    background: url(..//images/sxFyxB-Xv80.jpg) top no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: column;
+    z-index: 5;
+
+}
+p{
+	width: 15%;
+    color: aquamarine;
+    border: 1px dashed;
+}
+p#color{
+	width: 70%;
+    color: firebrick;
+    /*border-style: 1px solid dashed;
+    border-radius: 5rem 7rem 3rem 2rem;
+    border-width: 15px;
+    border-image: url(..//images/2.jpg) 15 round;
+    font-size: 1.5rem;
+    z-index: 1;
+    box-shadow: 8px 8px 5px 10px #666;*/
+}
+P#col{
+    margin: 4% ;
+	width: 200px;
+    height: 150px;
+    overflow: auto;
+    text-align: center;
+ font-size: 1rem;
+    color: black;
+    border:  1px solid;
+    border-radius: 30% ;
+    padding: 1.5rem;
+       
+    }
