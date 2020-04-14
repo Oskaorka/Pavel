@@ -89,6 +89,31 @@ console.log(answer); */
 	let isChecked = true,
 	    isClose = false;
 		console.log(! isChecked || !isClose );*/
-		console.log(4*3**2);
+		//console.log(4*3**2);
 		
 	
+/*let num = 20;
+function showFirstMessage(text) {
+	alert(text);
+	num = 10;
+}
+
+showFirstMessage("Hello World");
+console.log(num);*/
+
+function calc(a,b) {
+	return (a + b);
+}
+
+console.log(calc(3,4));
+
+console.log(calc(8,4));
+
+
+function retVar() {
+let num = 50;
+return num;
+}
+ 
+let anotherNum = retVar();
+console.log(anotherNum);
